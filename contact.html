@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <h1 class="titre1">Notre super site</h1>
+        <nav class="menu">
+            <ul>
+                <li><a id="accueil" href="index.html">Accueil</a></li>
+                <li><a id="faq" href="faq.html">FAQ</a></li>
+                <li><a id="contact" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 id="mainTitle">Contactez-nous</h1>
+
+        <form action="valid.html" method="">
+            <fieldset>
+                <legend>Vos infos :</legend>
+            <div>
+                <label for="name">Nom :</label><br>
+                <input type="text" id="name" name="user_name" placeholder="Dupont"><br>
+            </div><br>
+            <div>
+                <label for="firstname">Prénom :</label><br>
+                <input type="text" id="firstname" name="user_firstname" placeholder="Camille"><br>
+            </div><br>
+            <div>
+                <label for="age">Age :</label><br>
+                <input type="number" id="age" name="user_age" placeholder="30" min="0" max="200"><br>
+            </div><br>
+            <div>
+                <label for="mail">e-mail :</label><br>
+                <input type="email" id="mail" name="user_mail" placeholder="michel.dupont@gmail.com"><br>
+            </div><br>
+            <div>
+                <p>Quelques autres types d'input</p>
+                <input type="checkbox">
+                <input type="radio">
+                <input type="color">
+                <input type="date">
+                <input type="range">
+            </div>
+            <div>
+                <label for="message">Message :</label><br>
+                <textarea id="message" name="user_message" cols="30" rows="10" placeholder="Votre texte"></textarea><br>
+            </div><br>
+                <div>
+                    <label for="password">Mot de passe</label><br>
+                    <input type="password" name="user_password"><br>
+                </div><br>
+            <div class="button">
+                <button type="submit">Envoyer</button>
+            </div>
+            </fieldset>
+        </form>
+
+    </main>
+
+</body>
+</html>
